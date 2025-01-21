@@ -31,7 +31,7 @@ $socials = [
                                 <img class="h-10" src="<?= $social['src'] ?>" alt="<? $social['alt'] ?>">
                             </a>
                             <div class="flex mx-16 -mt-8 text-gray-400 font-semibold">
-                                <?=$social['name']?>
+                                <?= $social['name'] ?>
                             </div>
                         </div>
                     </div>
