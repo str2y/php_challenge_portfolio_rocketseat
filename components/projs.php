@@ -61,7 +61,7 @@ $projetos = [
         <?php foreach ($projetos as $projeto) : ?>
             <div class="flex gap-x-7 mt-6 justify-around">
                 <?php foreach ($projeto as $proj) : ?>
-                    <div class="flex bg-zinc-800 rounded-xl p-3">
+                    <div class="transition ease-in-out delay-50 border border-zinc-800 hover:border-solid hover:border-zinc-500 duration-200 flex bg-zinc-800 rounded-xl p-3">
                         <img src="<?= $proj['img'] ?>" class="min-w-64 h-44 rounded-md shadow-lg shadow-slate-800">
                         <div class="flex text-gray-200 mt-2 pl-6">
                             <div class="">
